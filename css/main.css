@@ -1,0 +1,45 @@
+
+
+.sidebar{
+    grid-area: sd;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content{
+    grid-area: ct;
+    display: grid;
+    grid-template-columns : repeat(auto-fill, 250px);
+    grid-template-rows: 430px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.main_card{
+    width: 200px;
+    margin : 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.main_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card_img{
+    width: 200px;
+}
+.card_content>p{
+    color: dimgray;
+}
+button{
+    color: #fff;
+    background-color: #616161;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.sidebar-2{
+    margin-top: 38px;
+    padding-top: 46px;
+    border-top: 1px solid #eee;
+}

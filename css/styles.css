@@ -1,0 +1,7 @@
+@import url(main.css);
+@import url(post.css);
+@import url(common.css);
+* {
+    font-family: "Open Sans", arial, sans-serif;
+    /*border: solid black 1px;*/
+}

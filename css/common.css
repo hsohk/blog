@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-columns: minmax(auto, 800px);
+    grid-template-rows: 50px 250px minmax(500px, auto) 50px;
+    grid-template-areas:
+        "nv"
+        "hd"
+        "ct"
+        "ft";
+    /*"hd hd"*/
+    /*"sd ct"*/
+    /*"ft ft";*/
+    justify-content: center;
+
+}
+
+.navi{
+    grid-area: nv;
+}
+.header{
+    grid-area: hd;
+    background-image: url(../image/header.jpg);
+    backgorund-repeat : no-repeat;
+    background-size : cover;
+    color: whitesmoke;
+}
+/*FOOTER*/
+.footer{
+    grid-area: ft;
+    padding-top: 20px;
+    color: lightgray;
+    border-top: solid darkgray  0.7px;
+}
+
+div{
+    padding : 10px;
+}

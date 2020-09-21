@@ -1,0 +1,50 @@
+
+@media(min-width:500px) {
+    .post_body {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media(max-width:500px) {
+    .post_body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.post_content{
+    flex: 1 1 200px;
+}
+
+.info{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info>.name{
+    font-weight: bold;
+}
+.info>.title{
+    font-size: 80%;
+    text-align: right;
+}
+.info>.company{
+    font-size: 80%;
+    text-align: right;
+}
+.info>.social{
+    font-size: 80%;
+}
+figure{
+    width: 80%;
+    font-size:80%
+}
+.post_img{
+    width: 100%;
+}
+
+.info_img{
+    width: 200px;
+}
+
